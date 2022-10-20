@@ -27,3 +27,9 @@ const heroi2 = new Heroi2(`Flash`, 80);
 heroi2.atacar();
 
 ///////////////
+class Heroi3 {
+  static obterAnoNascimento(idade) {
+    return 2020 - idade;
+  }
+}
+const anoNascimento = Heroi3.obterAnoNascimento;
